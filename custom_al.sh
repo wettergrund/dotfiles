@@ -18,4 +18,4 @@ alias nv='nvim'
 
 #Other
 alias please='/usr/bin/sudo $(history -p !!)'
-
+alias t='touch'

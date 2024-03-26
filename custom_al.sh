@@ -1,11 +1,10 @@
-# custom
-
 #Git
 alias gps='git push'
 alias gpl='git pull'
 alias gc='git commit -m'
 alias ga='git add .'
 
+# Quick commit and submit
 function lzgit()
 {
   git add .
@@ -17,5 +16,5 @@ function lzgit()
 alias nv='nvim'
 
 #Other
-alias please='/usr/bin/sudo $(history -p !!)'
+alias please='/usr/bin/sudo $(history -p !!)' # last command as sudo
 alias t='touch'
